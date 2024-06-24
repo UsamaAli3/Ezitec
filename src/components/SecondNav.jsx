@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaRegHeart, FaSearch, FaHeart } from "react-icons/fa";
 import Logo from "./Logo";
+import Typewriter from "typewriter-effect";
 
 function SecondNav() {
   return (
@@ -96,11 +97,20 @@ function SecondNav() {
         />
         <div className="absolute top-0 bottom-0 left-0 right-0 h-[100%] w-[100%] bg-[#042d89] opacity-[50%]"></div>
       </div>
-      <div className="absolute z-10 top-1/3 bottom-1/3 left-[10%]  right-[20%]  w-[65rem] h-[70svh] text-center   ">
+      <div className="absolute z-10 top-1/3 bottom-1/3 left-[10%]  right-[20%]  w-[65rem] h-[70svh] text-center  ">
         <div className="font-bold text-5xl text-white ">
-          <h1 className=" mb-10 w-[75%] p-auto m-auto">
-            Lern the fundamentals with our Experts in{" "}
-            <span className="text-sky-400">Programing</span>
+          <h1 className=" mb-10 w-[75%] p-auto m-auto relative text-start">
+            Lern the fundamentals with our <p className="ml-20 "> Experts in 
+            <span className="text-sky-400 inline-block ml-8   absolute">
+              <Typewriter
+                options={{
+                  strings: ["Programing", "Web Design","Social Skills", "Marketing"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
+            </p>
           </h1>
           <h1 className="flex justify-center font-semibold text-xl items-center mb-10">
             Utilize Effective Learning to Reach Your Potential

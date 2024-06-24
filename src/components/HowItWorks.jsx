@@ -1,5 +1,6 @@
 import React from "react";
 import HomeComp from "./HomeComp";
+import HowItsWork2 from "./HowItsWork2";
 
 function HowItWorks() {
   return (
@@ -7,6 +8,7 @@ function HowItWorks() {
       <div className="font-bold text-4xl pt-16 pb-10 text-gray-700 text-center">
         How it works?
       </div>
+      <HowItsWork2 />
       <div className="grid grid-cols-3  md:grid-cols-6 gap-6 place-items-center px-14 py-10">
         <div>
           <HomeComp />
