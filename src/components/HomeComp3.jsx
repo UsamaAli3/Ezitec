@@ -12,7 +12,9 @@ function HomeComp3({
       <div className="border-2 w-[337.5px] rounded-xl shadow-xl mb-10 hover:scale-105">
         <div className="flex rounded-t-xl justify-around items-center h-[150.73px] text-white bg-blue-600 mb-10 ">
           <div>
-            <h1 className={`font-bold w-[134.83px] h-[58px] text-2xl mt-8 ${className}`} >
+            <h1
+              className={`font-bold w-[134.83px] h-[58px] text-2xl mt-8 ${className}`}
+            >
               {tital}
             </h1>
             <p className="border-t-2 my-4  pt-2 border-gray-400 w-32">

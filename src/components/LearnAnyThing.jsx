@@ -16,7 +16,8 @@ function LearnAnyThing() {
         <div className="w-1/2  ">
           <div class="w-[30rem] h-svh p-4bg-white sm:p-8 dark:bg-gray-800 dark:border-gray-700 mt-60 ">
             <h5 class="mb-2 text-5xl font-bold text-gray-900 dark:text-white">
-              Learning <span className="text-sky-600">anytime</span> from anywhere
+              Learning <span className="text-sky-600">anytime</span> from
+              anywhere
             </h5>
             <p class="mb-5 text-base  text-gray-500 sm:text-base dark:text-gray-400">
               Increase the mobility level with Eziline Tecnologies LMS App. Take

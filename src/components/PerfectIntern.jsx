@@ -8,10 +8,10 @@ function PerfectIntern() {
       </div>
       <div className="flex flex-wrap justify-center gap-1">
         <div>
-          <HomeComp3 className=" w-[150.83px]"
+          <HomeComp3
+            className=" w-[150.83px]"
             image="https://ezitech.org/wp-content/uploads/2024/02/web-design-511x511.png"
             tital="HTML & CSS Javascript"
-            
           />
         </div>
         <div>

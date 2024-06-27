@@ -87,20 +87,20 @@ export default function Footer() {
           </div>
           <div className="  w-1/4 py-20 ">
             <h1 className="font-bold text-[18px] pb-5">CONTACT</h1>
-            <ul >
+            <ul>
               <li className="flex  items-center">
-                <FaLocationDot className="mr-2 text-xl "/>
+                <FaLocationDot className="mr-2 text-xl " />
                 <Link className="w-[266px]" to="#">
                   Office #304-B Amna Plaza, near Radio Pakistan, Rawalpindi,
                   Punjab 46000
                 </Link>
               </li>
               <li className="flex  items-center">
-                <IoCall className="mr-2 text-xl my-2"/>
+                <IoCall className="mr-2 text-xl my-2" />
                 <Link to="#">+923455555396</Link>
               </li>
               <li className="flex  items-center">
-                <MdEmail className="mr-2 text-xl"/>
+                <MdEmail className="mr-2 text-xl" />
                 <Link to="#">info@ezitech.org</Link>
               </li>
             </ul>
