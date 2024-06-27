@@ -1,6 +1,5 @@
 import React from "react";
 import HomeComp2 from "./HomeComp2";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 function RecoCourseComp() {
@@ -37,7 +36,6 @@ function RecoCourseComp() {
           infinite={true}
         >
           <HomeComp2 />
-
           <HomeComp2
             image="https://ezitech.org/wp-content/uploads/2023/03/shutterstock_1936430215-_FILEminimizer_.webp"
             tital="Online Arbitrage Mastermind 2.0[Resell Products from Home]"
@@ -54,14 +52,6 @@ function RecoCourseComp() {
           />
         </Carousel>
       </div>
-      {/* <div className="flex justify-center items-center my-4 ">
-        <div className="border-2 border-blue-700 text-center  w-8 h-8 cursor-pointer flex justify-center items-center my-4 hover:bg-blue-700">
-          <IoIosArrowBack className="text-blue-600" />
-        </div>
-        <div className="border-2 border-blue-700 text-center  w-8 h-8 cursor-pointer flex justify-center items-center my-4 hover:bg-blue-700">
-          <IoIosArrowForward className="text-blue-600" />
-        </div>
-      </div> */}
     </>
   );
 }
